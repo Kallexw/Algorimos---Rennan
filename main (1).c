@@ -815,6 +815,9 @@ int main()
     scanf ("%d", &opi);
      system("clear");
     printf("INTERROGANDO O DONO DA CASA\nSr. Campbell: Você chegou, finalmente! Hum… Pensei que fosse alguém diferente, mas… não importa. Aqui está a planta da casa. Faça o que for preciso para pegar o culpado, e rápido! Se demorar demais, minha paciência se esgotará e contratarei outro no seu lugar.\n{Parece que devo escolher com cuidado o que investigar. Não devo perder tempo!}\nDetetive: Primeiro preciso fazer algumas perguntas ao senhor.\nSr. Campbell: Claro.\nDetetive: O senhor notou algo estranho na noite anterior?\nSr Campbell: Não, tudo estava normal. A minha filha convidou a melhor amiga para passar a noite aqui em casa, como costumava fazer. Como ela se chama mesmo? Leah, Lisa… Algo assim. Você pode encontrar o número da casa dela na agenda ao lado do nosso telefone.\nDetetive: Certo, mas… a amiga da sua filha não estava aqui aqui ainda hoje? O senhor disse que ela veio passar a noite.\nSr Campbell: Ela não estava aqui pela manhã. Ela pode ter visto alguma coisa e fugiu assustada, não sei… Você deveria investigar.\nDetetive: É o que estou fazendo. E quanto a sua esposa? Ela não estava no quarto de vocês na noite passada?\n[O Sr Campbell engasga]\nSr Campbell: De forma alguma… cof, cof. Ela estava passando todas as madrugadas no escritório do andar de baixo. Sabe como é essa gente que escreve, com papos estranhos. O corpo da minha filha foi encontrado no escritório, e minha esposa fugi… Digo, sumiu. Essas coisas devem ter relação…\n{Ele desconfia da própria esposa?}\nDetetive: Certo, senhor, é o suficiente por enquanto. Vou iniciar investigando alguns cômodos.\nSr Campbell: Claro, claro. Fique à vontade, mas não esqueça do nosso prazo. Arrumei diversos contatos de gente que também se diz competente e mais… arrumadinha.\n");
+      printf ("1-Continuar\n");
+    scanf ("%d", &opi);
+     system("clear");
     printf("CENA DO CRIME (Escritório)\n");
     printf("Você entra na cena do crime. Há sangue no tapete onde o corpo foi encontrado.\n");
     printf("Suspeito... A vítima não havia sido estrangulada sem cortes visíveis?\n");
@@ -914,6 +917,7 @@ int main()
     return 0;
 
 }
+
 
 
 
