@@ -905,7 +905,7 @@ int main()
     }
     if (opf == 4) {
         revelacao = jardineirofim();
-        printf("Parabéns, %s, tu conseguiu resolver esse caso com extrema eficiência!\n", nome);
+        printf("Parabéns, %s, você conseguiu resolver esse caso com extrema eficiência!\n", nome);
     }
     if (opf == 9) {
         revelacao = feijoada();
@@ -914,5 +914,6 @@ int main()
     return 0;
 
 }
+
 
 
