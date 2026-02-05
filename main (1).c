@@ -573,9 +573,37 @@ int jardineirofim (void) {
     scanf ("%d", &pote);
     if (pote == 1) {
         printf ("Você encontrou o culpado!\nFIM.\n");
+           printf("╔══════════════════════════════════════════╗\n");
+        printf("║               ___________                ║\n");
+        printf("║              '._==_==_=_.'               ║\n");
+        printf("║              .-\\:      /-.              ║\n");
+        printf("║             | (|:.     |) |             ║\n");
+        printf("║              '-|:.     |-'              ║\n");
+        printf("║                \\::.    /                ║\n");
+        printf("║                 '::. .'                 ║\n");
+        printf("║                   ) (                   ║\n");
+        printf("║                 _.'   '._               ║\n");
+        printf("║                '_________'              ║\n");
+        printf("║                                          ║\n");
+        printf("║              VOCE GANHOU!                ║\n");
+        printf("╠══════════════════════════════════════════╣\n");
     }
     if (pote == 2) {
         printf ("Você encontrou o culpado!\nFIM.\n");
+           printf("╔══════════════════════════════════════════╗\n");
+        printf("║               ___________                ║\n");
+        printf("║              '._==_==_=_.'               ║\n");
+        printf("║              .-\\:      /-.              ║\n");
+        printf("║             | (|:.     |) |             ║\n");
+        printf("║              '-|:.     |-'              ║\n");
+        printf("║                \\::.    /                ║\n");
+        printf("║                 '::. .'                 ║\n");
+        printf("║                   ) (                   ║\n");
+        printf("║                 _.'   '._               ║\n");
+        printf("║                '_________'              ║\n");
+        printf("║                                          ║\n");
+        printf("║              VOCE GANHOU!                ║\n");
+        printf("╠══════════════════════════════════════════╣\n");
     }
     
 }
@@ -750,3 +778,4 @@ int main()
     return 0;
 
 }
+
