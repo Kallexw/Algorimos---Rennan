@@ -511,7 +511,6 @@ int intseis (void) {
 }
 
 int interrogatorio (void) {
-      system("clear");
     int result, op2;
     int inter = 0;
     int tempo =0;
@@ -917,6 +916,7 @@ int main()
     return 0;
 
 }
+
 
 
 
