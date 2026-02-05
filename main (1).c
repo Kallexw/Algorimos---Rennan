@@ -168,6 +168,19 @@ int vitima (void) {
     limite++;
      printf("Você entra no quarto de Anne Campbell. A mobília é colorida e de qualidade, os brinquedos jogados ao aguardo de uma criança que não retornará.\n");
     printf("Você se aproxima da cama. Na mesa de cabeceira, um diário está aberto. A caligrafia infantil diz:\n\n");
+      printf("                 ########################################\n");
+    printf("                 #                                      #\n");
+    printf("                 #                                      #\n");
+    printf("                 #        D I Á R I O   D E   A N N E     #\n");
+    printf("                 #                                      #\n");
+    printf("                 #      __________________________      #\n");
+    printf("                 #     |                          |     #\n");
+    printf("                 #     |        MEU  DIÁRIO        |     #\n");
+    printf("                 #     |                          |     #\n");
+    printf("                 #     |__________________________|     #\n");
+    printf("                 #                                      #\n");
+    printf("                 #                                      #\n");
+    printf("                 ########################################\n");
     printf("04/02/1958\nQuerido Diário,\nHoje a mamãe estava dizendo coisas estranhas de novo. Eu não sei o que ela tem, e o papai também não. Eles brigaram feio e a mamãe se trancou no escritório. Por que ela não fala mais comigo?\n\n");
     printf("27/01/1958\nQuerido Diário,\nA mamãe disse algumas coisas estranhas hoje. Era como se ela não soubesse onde estava. Acho que ela estava pregando uma peça em mim. Não sei, parece ter alguma coisa errada. Ela passou a última semana inteira enfiada no escritório, escrevendo. Mas ela não já tinha publicado seu último livro?\n\n");
     printf("{Realmente havia algo errado com a Sra. Campbell}\n");
@@ -572,6 +585,9 @@ int feijoada (void) {
 
 int creditos (void) {
     int result;
+       printf("=== CREDITOS ===\n");
+            printf("Jogo: MORTE CERÚLEA\n");
+            printf("Desenvolvido por alunos\n");
     printf ("Beatriz Melquíades\nDaniel Medeiros\nJacklliny Rebekah\nJenyfer Rayane\n");
         printf("José Heitor\nSara Beatriz\n");
         printf("1-VOLTAR\n");
@@ -589,13 +605,30 @@ int main()
          if (selecao == 2) {
         selecao = creditos();
     }
-        printf ("1-COMEÇAR\n");
-         printf ("2-CRÉDITOS\n");
-          printf ("3-SAIR\n");
+       printf("\n");
+    printf("╔══════════════════════════════════════════╗\n");
+    printf("║                                          ║\n");
+    printf("║        ███╗   ███╗   ██████╗              ║\n");
+    printf("║        ████╗ ████║  ██╔════╝              ║\n");
+    printf("║        ██╔████╔██║  ██║                   ║\n");
+    printf("║        ██║╚██╔╝██║  ██║                   ║\n");
+    printf("║        ██║ ╚═╝ ██║  ╚██████╗              ║\n");
+    printf("║        ╚═╝     ╚═╝   ╚═════╝              ║\n");
+    printf("║                                          ║\n");
+    printf("║             MORTE CERÚLEA                 ║\n");
+    printf("║                                          ║\n");
+    printf("╠══════════════════════════════════════════╣\n");
+    printf("║            [1] INICIAR JOGO               ║\n");
+    printf("║            [2] CREDITOS                  ║\n");
+    printf("║            [3] SAIR                      ║\n");
+    printf("╠══════════════════════════════════════════╣\n");
+    printf("║        Escolha uma opcao para seguir      ║\n");
+    printf("╚══════════════════════════════════════════╝\n");
         scanf ("%d", &selecao);
          system("clear");
     }
     if (selecao == 3) {
+          printf("Saindo do jogo...\n");
         exit(0);
     }
     
@@ -715,4 +748,5 @@ int main()
         printf("Você errou, %s, e não encontrou o culpado!\n", nome);
     }
     return 0;
+
 }
